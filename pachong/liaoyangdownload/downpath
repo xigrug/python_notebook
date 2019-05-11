@@ -1,0 +1,8 @@
+#/bin/bash
+
+# set path for weather download
+
+export home_path=/home/statis/data
+export path_obs=$home_path/obs
+export path_wea_c=$home_path/weather
+export path_wea_f=$home_path/weather2

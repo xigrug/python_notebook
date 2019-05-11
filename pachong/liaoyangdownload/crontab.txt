@@ -1,0 +1,11 @@
+00 12   *   *   *   /data/forecast/statis/script/ncepgfs.csh >& /data/forecast/statis/script/download.log
+#00 15   *   *   *   /data/forecast/statis/script/getgfs.sh >& /data/forecast/statis/script/download.log
+30 15   *   *   *   /data/forecast/statis/script/run.forecast >& /data/forecast/statis/script/run.log
+#30 15   *   *   *   /data/forecast/simulation/script03/run.forecast >& /data/forecast/simulation/script03/run.log
+06 *   *   *   *   /data/forecast/statis/data/weather/weather_chart.sh >> /data/forecast/statis/data/weather/weather_chart.log 2>&1
+*/10 *   *   *   *   /data/forecast/statis/data/weather/weather_japan.sh >> /data/forecast/statis/data/weather/weather_japan.log 2>&1
+0 */3   *   *   *   /data/forecast/statis/data/weather/weather_japan_srf.sh >> /data/forecast/statis/data/weather/weather_japan_srf.log 2>&1
+36 *   *   *   *   /data/forecast/statis/data/weather2/weather_chartf.sh >> /data/forecast/statis/data/weather2/weather_chart.log 2>&1
+06 *   *   *   *   /data/forecast/statis/data/weather2/weather.sh >> /data/forecast/statis/data/weather2/weather.log 2>&1
+50 03   *   *   *  /data/forecast/statis/data/obs/obs_download.sh >> /data/forecast/statis/data/obs/obs_down.log 2>&1
+00 4-8/1 * * * /data/forecast/statis/data/weather2/run.sh >> /data/forecast/statis/data/weather2/run.log 2>&1
