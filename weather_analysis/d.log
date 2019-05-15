@@ -1,0 +1,54 @@
+/public/home/hysplit/software/anaconda3/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/cartopy/vector_transform.py:140: UserWarning: Some vectors at source domain corners may not have been transformed correctly
+  u, v = target_proj.transform_vectors(src_crs, x, y, u, v)
+/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/cartopy/vector_transform.py:140: UserWarning: Some vectors at source domain corners may not have been transformed correctly
+  u, v = target_proj.transform_vectors(src_crs, x, y, u, v)
+/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/cartopy/vector_transform.py:140: UserWarning: Some vectors at source domain corners may not have been transformed correctly
+  u, v = target_proj.transform_vectors(src_crs, x, y, u, v)
+/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/cartopy/vector_transform.py:140: UserWarning: Some vectors at source domain corners may not have been transformed correctly
+  u, v = target_proj.transform_vectors(src_crs, x, y, u, v)
+/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/cartopy/vector_transform.py:140: UserWarning: Some vectors at source domain corners may not have been transformed correctly
+  u, v = target_proj.transform_vectors(src_crs, x, y, u, v)
+161.88301
+89.76907
+31.742289
+-43.774296
+[ 70  78  86  94 102]
+[110]
+[118 126 134 142 150 158]
+161.94522
+80.38008
+33.192455
+-42.51033
+[ 70  78  86  94 102]
+[110]
+[118 126 134 142 150 158]
+162.46248
+76.77598
+32.15349
+-38.60755
+[ 70  78  86  94 102]
+[110]
+[118 126 134 142 150 158]
+162.17894
+87.3618
+29.391178
+-40.838757
+[ 70  78  86  94 102]
+[110]
+[118 126 134 142 150 158]
+161.6366
+89.717354
+30.558487
+-40.236103
+[ 70  78  86  94 102]
+[110]
+[118 126 134 142 150 158]
+162.26663
+87.046776
+31.285204
+-42.599842
+[ 70  78  86  94 102]
+[110]
+[118 126 134 142 150 158]
