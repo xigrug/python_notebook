@@ -1,0 +1,57 @@
+/public/home/hysplit/software/anaconda3/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/cartopy/vector_transform.py:140: UserWarning: Some vectors at source domain corners may not have been transformed correctly
+  u, v = target_proj.transform_vectors(src_crs, x, y, u, v)
+/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/cartopy/vector_transform.py:140: UserWarning: Some vectors at source domain corners may not have been transformed correctly
+  u, v = target_proj.transform_vectors(src_crs, x, y, u, v)
+/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/cartopy/vector_transform.py:140: UserWarning: Some vectors at source domain corners may not have been transformed correctly
+  u, v = target_proj.transform_vectors(src_crs, x, y, u, v)
+/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/cartopy/vector_transform.py:140: UserWarning: Some vectors at source domain corners may not have been transformed correctly
+  u, v = target_proj.transform_vectors(src_crs, x, y, u, v)
+1043.0321
+552.4917
+[500 580 660 740 820 900]
+[950]
+[ 950  970  990 1010 1030 1050 1070 1090 1110 1130]
+1039.5143
+551.03186
+[500 580 660 740 820 900]
+[950]
+[ 950  970  990 1010 1030 1050 1070 1090 1110 1130]
+1037.4661
+550.349
+[500 580 660 740 820 900]
+[950]
+[ 950  970  990 1010 1030 1050 1070 1090 1110 1130]
+1034.9703
+549.0168
+[500 580 660 740 820 900]
+[950]
+[ 950  970  990 1010 1030 1050 1070 1090 1110 1130]
+Traceback (most recent call last):
+  File "/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/xarray/backends/file_manager.py", line 167, in acquire
+    file = self._cache[self._key]
+  File "/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/xarray/backends/lru_cache.py", line 42, in __getitem__
+    value = self._cache[key]
+KeyError: [<function _open_netcdf4_group at 0x2b5bf8400488>, ('/public/home/hysplit/data/ecwmf/ERA-Int_sfc_20150429.nc', CombinedLock([<SerializableLock: 0850d9e6-9f7e-4598-9bfc-d99c154fe5ba>, <SerializableLock: bb07d965-7bae-4166-8f29-176f7b6f0ebb>])), 'r', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('group', None), ('persist', False))]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "sfc_cartopy-08.py", line 96, in <module>
+    ds = xr.open_dataset(dataFile)
+  File "/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/xarray/backends/api.py", line 363, in open_dataset
+    filename_or_obj, group=group, lock=lock, **backend_kwargs)
+  File "/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/xarray/backends/netCDF4_.py", line 352, in open
+    return cls(manager, lock=lock, autoclose=autoclose)
+  File "/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/xarray/backends/netCDF4_.py", line 311, in __init__
+    self.format = self.ds.data_model
+  File "/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/xarray/backends/netCDF4_.py", line 356, in ds
+    return self._manager.acquire().value
+  File "/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/xarray/backends/file_manager.py", line 173, in acquire
+    file = self._opener(*self._args, **kwargs)
+  File "/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/xarray/backends/netCDF4_.py", line 244, in _open_netcdf4_group
+    ds = nc4.Dataset(filename, mode=mode, **kwargs)
+  File "netCDF4/_netCDF4.pyx", line 2291, in netCDF4._netCDF4.Dataset.__init__
+  File "netCDF4/_netCDF4.pyx", line 1855, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: b'/public/home/hysplit/data/ecwmf/ERA-Int_sfc_20150429.nc'

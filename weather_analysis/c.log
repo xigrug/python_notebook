@@ -1,0 +1,56 @@
+/public/home/hysplit/software/anaconda3/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  return f(*args, **kwds)
+/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/cartopy/vector_transform.py:140: UserWarning: Some vectors at source domain corners may not have been transformed correctly
+  u, v = target_proj.transform_vectors(src_crs, x, y, u, v)
+/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/cartopy/vector_transform.py:140: UserWarning: Some vectors at source domain corners may not have been transformed correctly
+  u, v = target_proj.transform_vectors(src_crs, x, y, u, v)
+/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/cartopy/vector_transform.py:140: UserWarning: Some vectors at source domain corners may not have been transformed correctly
+  u, v = target_proj.transform_vectors(src_crs, x, y, u, v)
+/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/cartopy/vector_transform.py:140: UserWarning: Some vectors at source domain corners may not have been transformed correctly
+  u, v = target_proj.transform_vectors(src_crs, x, y, u, v)
+/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/cartopy/vector_transform.py:140: UserWarning: Some vectors at source domain corners may not have been transformed correctly
+  u, v = target_proj.transform_vectors(src_crs, x, y, u, v)
+/public/home/hysplit/software/anaconda3/lib/python3.6/site-packages/cartopy/vector_transform.py:140: UserWarning: Some vectors at source domain corners may not have been transformed correctly
+  u, v = target_proj.transform_vectors(src_crs, x, y, u, v)
+161.59477
+89.30302
+28.79868
+-46.08452
+[ 70  78  86  94 102]
+[110]
+[118 126 134 142 150 158]
+161.87639
+88.23782
+28.800318
+-43.99359
+[ 70  78  86  94 102]
+[110]
+[118 126 134 142 150 158]
+162.76295
+76.46248
+29.879309
+-39.690563
+[ 70  78  86  94 102]
+[110]
+[118 126 134 142 150 158]
+162.50737
+80.819
+29.6628
+-39.02109
+[ 70  78  86  94 102]
+[110]
+[118 126 134 142 150 158]
+162.09149
+90.90159
+28.455683
+-41.19067
+[ 70  78  86  94 102]
+[110]
+[118 126 134 142 150 158]
+162.52689
+87.52913
+28.693697
+-42.46541
+[ 70  78  86  94 102]
+[110]
+[118 126 134 142 150 158]
