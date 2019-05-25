@@ -89,7 +89,7 @@ def plot_maxmin_points(lon, lat, data, extrema, nsize, symbol, color='k',
                 '\n' + str(np.int(data[mxy[i], mxx[i]])),
                 color=color, size=12, clip_on=True, fontweight='bold',
                 horizontalalignment='center', verticalalignment='top', transform=transform)
-for i in range(25,30):
+for i in range(29,31):
     day=str(i)
     dataFile = '/public/home/hysplit/data/ecwmf/ERA-Int_sfc_201504'+day+'.nc'
 #Open the dataset and print out metadeta
