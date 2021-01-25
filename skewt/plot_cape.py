@@ -8,8 +8,9 @@ from metpy.units import units
 from siphon.simplewebservice.wyoming import WyomingUpperAir
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 
-date = datetime(2015, 4, 28, 0)
-station = '52203'
+date = datetime(2017, 5, 8, 0)
+#station = '52203'
+station = '58238'
 df = WyomingUpperAir.request_data(date, station)
 print(df.units)
 p = df['pressure'].values * units(df.units['pressure'])

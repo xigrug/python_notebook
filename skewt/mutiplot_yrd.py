@@ -12,7 +12,7 @@ from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 station = '58238' #72572 is ID for SLC
 na = "Nanjing" #72572 is ID for SLC
 #daterange = pd.date_range(start='20170609',periods=4,freq='0.5D')
-daterange = pd.date_range(start='20180118',periods=4,freq='0.5D')
+daterange = pd.date_range(start='20170506',periods=10,freq='0.5D')
 print(daterange)
 for date in daterange:
     print(date)
